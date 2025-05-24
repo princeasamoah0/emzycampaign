@@ -1,0 +1,30 @@
+/*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
+
+/* ... (truncated for brevity in code block) ... */
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .mini-slider-area .bend.nicoties.preview-2 {
+        height: auto !important;
+    }
+
+    #mini-nivoslider,
+    #mini-nivoslider img {
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .mini-caption .title5,
+    .mini-caption .title6 {
+        font-size: 20px;
+    }
+
+    .mini-caption .slide-all {
+        padding: 15px;
+    }
+
+    .mini-caption .min1 {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}

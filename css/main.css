@@ -279,75 +279,56 @@ textarea {
     }
 }
 
-//* Force second slider to behave like first but mobile-friendly */
-.mini-slider-area .bend.nicoties.preview-2 {
-    height: 420px;
-    position: relative;
-    overflow: hidden;
-}
-
-#mini-nivoslider,
-#mini-nivoslider img {
-    width: 100%;
-    height: 420px;
-    max-height: 420px;
-    object-fit: none;
-}
-
-.mini-caption {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    right: 0;
-    transform: translateY(-50%);
-    height: auto;
-    z-index: 10;
-}
-
-.mini-caption .slide-all {
-    padding: 0 15px;
-    text-align: center;
-}
-
-.mini-caption .title5,
-.mini-caption .title6 {
-    color: #fff;
-    font-weight: 600;
-    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
-}
-
-/* General (desktop-first) styling */
-#mini-nivoslider,
-#mini-nivoslider img {
-  width: 100% !important;
-  height: 420px !important;  /* This causes the problem on mobile */
-  object-fit: cover;
-  display: block;
-}
-
-/* ========== FIX Second Slider Visibility on Mobile ========== */
+/* Mobile responsiveness */
 @media (max-width: 768px) {
-  .mini-slider-area .bend.nicoties.preview-2 {
-    height: auto !important;
-  }
+    .mini-slider-area .bend.nicoties.preview-2 {
+        height: auto !important;
+    }
 
-  #mini-nivoslider,
-  #mini-nivoslider img {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-    display: block;
-  }
+    #mini-nivoslider,
+    #mini-nivoslider img {
+        height: auto !important;
+        max-height: none !important;
+    }
 
+    .mini-caption .title5,
+    .mini-caption .title6 {
+        font-size: 20px;
+    }
 
-  .mini-caption .slide-all {
-    padding: 20px;
-    text-align: center;
-  }
+    .mini-caption .slide-all {
+        padding: 15px;
+    }
 
-  .mini-caption .title5,
-  .mini-caption .title6 {
-    font-size: 18px !important;
-    color: #fff !important;
-  }
+    .mini-caption .min1 {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+    .mini-slider-area .bend.nicoties.preview-2 {
+        height: auto !important;
+    }
+
+    #mini-nivoslider,
+    #mini-nivoslider img {
+        height: auto !important;
+        max-height: none !important;
+    }
+
+    .mini-caption .title5,
+    .mini-caption .title6 {
+        font-size: 20px;
+    }
+
+    .mini-caption .slide-all {
+        padding: 15px;
+    }
+
+    .mini-caption .min1 {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
 }

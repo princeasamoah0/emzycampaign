@@ -333,3 +333,22 @@ textarea {
         font-size: 14px;
     }
 }
+
+@media (max-width: 768px) {
+  /* Make text smaller for second slider */
+  #slider-direction-1 .title5,
+  #slider-direction-1 .title6 {
+    font-size: 20px !important;
+    line-height: 1.2;
+  }
+
+  #slider-direction-1 .min1 {
+    font-size: 14px !important;
+    padding: 8px 16px !important;
+  }
+
+  #slider-direction-1 .slide-all {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

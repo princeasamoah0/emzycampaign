@@ -350,5 +350,7 @@ textarea {
   #slider-direction-1 .slide-all {
     padding-left: 15px;
     padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
   }
 }

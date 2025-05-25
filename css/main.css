@@ -279,7 +279,11 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+
+
 }
+
+
 
 /* Mobile responsiveness */
 @media (max-width: 768px) {

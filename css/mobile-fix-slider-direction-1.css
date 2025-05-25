@@ -375,3 +375,32 @@ textarea {
     padding-bottom: 15px;
   }
 }
+
+@media (max-width: 768px) {
+  #slider-direction-1-alt .title6,
+  #slider-direction-1-alt .title5 {
+    font-size: 16px !important;
+    line-height: 1.2 !important;
+  }
+
+  #slider-direction-1-alt .min1 {
+    font-size: 13px !important;
+    padding: 6px 14px !important;
+  }
+
+  #slider-direction-1-alt .slide-all {
+    padding: 10px 15px !important;
+  }
+}
+
+.bend.nicoties.preview-2 {
+  height: auto !important;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .bend.nicoties.preview-2 {
+    height: 500px;
+    overflow: hidden;
+  }
+}

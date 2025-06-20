@@ -1,14 +1,14 @@
 /*-----------------------------------------------------------------------------------
-    Template Name: Polite - Political HTML Template 
+    Template Name: Polite - Political HTML Template
     Description: This is html5 template
     Author: power-boosts
     Version: 1.0.3
 
 
 -----------------------------------------------------------------------------------
-    
-    [Table of contents] 
-	
+
+    [Table of contents]
+
     1. Template default css
     2. Header area
     3. Search / #search
@@ -26,7 +26,7 @@
     15. Home page two
     16. Gallery
     17. About page
-    18. Breadcrumbs area 
+    18. Breadcrumbs area
     19. Events details page
     20. Event details
     21. Team page
@@ -36,9 +36,9 @@
     25. Contact page
     26. Donate page
     27. Events page
-    
-    
-    
+
+
+
 -----------------------------------------------------------------------------------*/
 /*----------------------------------------*/
 /*  1. Template default css
@@ -1062,7 +1062,7 @@ span.published2 i {
 .meet-img a img {
     -webkit-filter: grayscale(100%);
     /* Chrome, Safari, Opera */
-    
+
     filter: grayscale(100%);
     -webkit-transition: all .4s ease 0s;
     transition: all .4s ease 0s;
@@ -1070,7 +1070,7 @@ span.published2 i {
 .meet-all:hover .meet-img a img {
     -webkit-filter: grayscale(0%);
     /* Chrome, Safari, Opera */
-    
+
     filter: grayscale(0%);
 }
 .product-content {
@@ -2285,19 +2285,19 @@ a.video-popup i {
 }
 .contact-form input::-webkit-input-placeholder {
     /* Chrome */
-    
+
     color: #555;
     opacity: 1;
 }
 .contact-form input::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #555;
     opacity: 1;
 }
 .contact-form textarea::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #555;
     opacity: 1;
 }
@@ -2373,13 +2373,13 @@ button.submit i {
 }
 .mc-form input::-webkit-input-placeholder {
     /* Chrome */
-    
+
     color: #333;
     opacity: 1;
 }
 .mc-form input::-moz-placeholder {
     /* Firefox 19+ */
-    
+
     color: #333;
     opacity: 1;
 }
@@ -4577,5 +4577,18 @@ button {
     border: none;
 }
 
-
-
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+.owl-dot {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  margin: 5px;
+  border-radius: 50%;
+}
+.owl-dot.active {
+  background: #800000;
+}
